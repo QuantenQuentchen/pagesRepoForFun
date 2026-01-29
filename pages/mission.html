@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission & Charter - Stellar Archives</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="archive-logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16 8 L16 24 M8 16 L24 16" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+                <span class="archive-title">STELLAR ARCHIVES</span>
+            </div>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-category" data-category="overview">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1.5"/>
+                        <line x1="8" y1="8" x2="8" y2="17" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                    <span class="nav-text">Overview</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="mission.html" class="nav-item nav-child">
+                        <span class="nav-text">Mission & Charter</span>
+                    </a>
+                    <a href="structure.html" class="nav-item nav-child">
+                        <span class="nav-text">Organizational Structure</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-category" data-category="history">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <circle cx="10" cy="10" r="7" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        <path d="M10 6 L10 10 L13 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                    </svg>
+                    <span class="nav-text">History</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="prehistoric.html" class="nav-item nav-child">
+                        <span class="nav-text">Pre-Contact Era</span>
+                    </a>
+                    <a href="early-civ.html" class="nav-item nav-child">
+                        <span class="nav-text">Early Civilization</span>
+                    </a>
+                    <a href="theocratic.html" class="nav-item nav-child">
+                        <span class="nav-text">Theocratic Oppression</span>
+                    </a>
+                    <a href="early-revolution.html" class="nav-item nav-child">
+                        <span class="nav-text">Early Revolutionary Period</span>
+                    </a>
+                    <a href="late-revolution.html" class="nav-item nav-child">
+                        <span class="nav-text">Late Revolutionary Period</span>
+                    </a>
+                    <a href="current-era.html" class="nav-item nav-child">
+                        <span class="nav-text">Current Era</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-category" data-category="systems">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <circle cx="10" cy="10" r="2" fill="currentColor"/>
+                        <circle cx="4" cy="6" r="1.5" fill="currentColor"/>
+                        <circle cx="16" cy="7" r="1.5" fill="currentColor"/>
+                        <circle cx="5" cy="14" r="1.5" fill="currentColor"/>
+                        <circle cx="15" cy="14" r="1.5" fill="currentColor"/>
+                        <line x1="10" y1="10" x2="4" y2="6" stroke="currentColor" stroke-width="1"/>
+                        <line x1="10" y1="10" x2="16" y2="7" stroke="currentColor" stroke-width="1"/>
+                        <line x1="10" y1="10" x2="5" y2="14" stroke="currentColor" stroke-width="1"/>
+                        <line x1="10" y1="10" x2="15" y2="14" stroke="currentColor" stroke-width="1"/>
+                    </svg>
+                    <span class="nav-text">Systems</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="core-systems.html" class="nav-item nav-child">
+                        <span class="nav-text">Core Systems</span>
+                    </a>
+                    <a href="outer-territories.html" class="nav-item nav-child">
+                        <span class="nav-text">Outer Territories</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-category" data-category="protocols">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <rect x="4" y="3" width="12" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1.5"/>
+                        <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1.5"/>
+                        <line x1="7" y1="13" x2="10" y2="13" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                    <span class="nav-text">Protocols</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="governance.html" class="nav-item nav-child">
+                        <span class="nav-text">Governance Protocols</span>
+                    </a>
+                    <a href="security.html" class="nav-item nav-child">
+                        <span class="nav-text">Security Directives</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-footer">
+            <div class="access-level">
+                <span class="access-label">ACCESS</span>
+                <span class="access-value">PUBLIC</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="page-header">
+                <div class="header-stripe"></div>
+                <div class="header-content">
+                    <h1 class="page-title">Intersystem Archives Database</h1>
+                    <p class="page-subtitle">Central Repository — Stellar Syndicate of Free Worlds</p>
+                </div>
+                <div class="header-metadata">
+                    <span class="metadata-item">LAST SYNCHRONIZED: <span class="data-value">2429.01.27</span></span>
+                    <span class="metadata-item">NODE: <span class="data-value">ARCHIVE-PRIME-01</span></span>
+                </div>
+            </header>
+
+            <div class="content-body">
+                <section class="document-section">
+                    <div class="document-header">
+                        <h1 class="document-title">Intersystem Archives Authority — Mission & Charter</h1>
+                        <div class="document-meta">
+                            <span class="classification classification-public">PUBLIC</span>
+                            <span>DOCUMENT ID: <strong>ARCH-CHAR-0001</strong></span>
+                            <span>RATIFIED: <strong>2385.06.15</strong></span>
+                            <span>LAST UPDATED: <strong>2429.01.03</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="document-content">
+                        <h2>Foundational Mandate</h2>
+                        <p>
+                            The Intersystem Archives Authority exists to preserve, protect, and provide access to the
+                            collective memory of the Stellar Syndicate of Free Worlds. As established by the Public
+                            Information Act of <em>2385</em>, this institution serves as the primary repository for
+                            historical documentation, governmental records, and cultural heritage materials spanning
+                            the entire history of syndicalist civilization.
+                        </p>
+
+                        <blockquote>
+                            "A free people must have access to their own history, unfiltered and complete. Only through
+                            knowledge of our past can we build a just future."
+                            — Preamble to the Public Information Act, 2385
+                        </blockquote>
+
+                        <h2>Core Principles</h2>
+
+                        <h3>Transparency and Public Access</h3>
+                        <p>
+                            The Archives Authority operates under the fundamental principle that information belongs to
+                            the people. All documents not explicitly requiring security classification are made freely
+                            available to any citizen of the Stellar Syndicate. This commitment to transparency serves
+                            both democratic accountability and historical scholarship.
+                        </p>
+
+                        <h3>Preservation Integrity</h3>
+                        <p>
+                            Historical records must be maintained with absolute fidelity to their original form. The
+                            Archives Authority employs advanced preservation technologies and rigorous protocols to
+                            ensure that documents remain unaltered and accessible across generations. Multiple redundant
+                            copies are maintained across different star systems to protect against data loss.
+                        </p>
+
+                        <h3>Professional Independence</h3>
+                        <p>
+                            While accountable to the Intersystem Congress, the Archives Authority maintains operational
+                            independence in matters of document classification, preservation priorities, and access
+                            policies. This independence protects the historical record from political manipulation while
+                            ensuring responsible stewardship.
+                        </p>
+
+                        <h3>Historical Collaboration</h3>
+                        <p>
+                            The Archives Authority is committed to collaborating with other archives and repositories to
+                            ensure comprehensive coverage of the Stellar Syndicate's history. All contributions to the
+                            database are reviewed pre- and post-publication by the Intersystem Archives Authority for
+                            neutrality, scientific and historical rigor. Sources and origin of information are clearly
+                            identified and documented.
+                        </p>
+
+                        <h3>Governmental Collaboration</h3>
+                        <p>
+                            The Archives Authority is comitted to collaborating with governmental bodies to ensure
+                            universal, fair, and easy access to important governmental records, this includes but is
+                            not limited to: Public annoucements, Information regarding laws and policies, and
+                            Governmental Public Information Efforts. The same rigor is applied to all documents,
+                            independently of origin.
+                        </p>
+
+                        <h2>Organizational Mission</h2>
+                        <p>
+                            The Intersystem Archives Authority is charged with the following mission objectives:
+                        </p>
+
+                        <p>
+                            <strong>Historical Preservation:</strong> Maintain comprehensive documentation of the
+                            Stellar Syndicate's development, including pre-revolutionary history, the revolutionary
+                            period, and contemporary records. This includes governmental documents, cultural materials,
+                            personal testimonies, and artifacts.
+                        </p>
+
+                        <p>
+                            <strong>Public Education:</strong> Facilitate public understanding of history through
+                            educational programs, exhibitions, and accessible documentation. Work with educational
+                            institutions to ensure historical literacy among all citizens.
+                        </p>
+
+                        <p>
+                            <strong>Research Support:</strong> Provide resources and assistance to scholars, journalists,
+                            and citizens conducting historical research. Maintain finding aids, indexes, and metadata to
+                            facilitate efficient information retrieval.
+                        </p>
+
+                        <p>
+                            <strong>Intersystem Coordination:</strong> Collaborate with archives and repositories across
+                            member systems to ensure comprehensive coverage and standardized preservation practices
+                            throughout the Stellar Syndicate.
+                        </p>
+
+                        <h2>Universality of Information</h2>
+                        <p>
+                            In accordance with the <em>Universality of Information Act</em> the Archives Authority is
+                            currently in the Process of opening up all unrestricted documents to any sapient entity, of
+                            Galactic Society. These efforts contain of but are not limited to:
+                        </p>
+
+                        <h3>Translation</h3>
+                        <p>
+                            The Archives Authority has increased its translation efforts to include all spoken and read
+                            languages of known Galactic Society. The effort is ongoing, priority is given based on
+                            population size and demand.
+                        </p>
+
+                        <h3>Accessibility</h3>
+                        <p>
+                            To ensure the highest possible level of accessibility, the Archives Authority is currently
+                            working together with interspecies cultural heritage institutions, xeno and exo biologists,
+                            and specialists in inter-cultural, inter-species, and inter-physiology communication. To
+                            ensure that accessibility to any sapient being, regardless of physical or cognitive
+                            differences.
+                        </p>
+
+                        <h3>Distribution</h3>
+                        <p>
+                            To ensure universal access to the Archive Database, the Archives Authority is establishing
+                            multiple redundant information distribution networks. This includes the expansion of
+                            currently available network nodes, the establishment of new nodes in frontier regions, and the
+                            development of secure personal node hosting solutions. Private, secure, and anonymous access.
+                            Distribution in non-digital form is also explored and tested in a limited capacity
+                        </p>
+
+                        <blockquote>
+                            "Freedom is not a matter of biology, society, or national allegiance. It is an ideal, it is
+                            a longing, it is a right that transcends all boundaries. We have learned this lesson from
+                            our past. In its continuing effort to bring about the liberation of all sapient beings, we
+                            must not only preserve the history of our people, but also the history of the universe. From
+                            today onward there will be no difference between a citizen of the Syndicate and any other
+                            being, at least in the eyes of history." ~ Exceprt: <em>Universality of Information Act</em>,
+                            preamble
+                        </blockquote>
+
+                        <h2>Access Protocols</h2>
+
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Classification Level</th>
+                                    <th>Access Requirements</th>
+                                    <th>Review Period</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>PUBLIC</td>
+                                    <td>No restrictions; freely accessible to all citizens</td>
+                                    <td>Immediate</td>
+                                </tr>
+                                <tr>
+                                    <td>RESTRICTED</td>
+                                    <td>Research credentials or demonstrated need</td>
+                                    <td>30 stellar cycles</td>
+                                </tr>
+                                <tr>
+                                    <td>CLASSIFIED</td>
+                                    <td>Security clearance and authorized purpose</td>
+                                    <td>50 stellar cycles</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2>Accountability and Oversight</h2>
+                        <p>
+                            The Archives Authority reports annually to the Intersystem Congress on its activities,
+                            budget utilization, and preservation initiatives. An independent review board, composed
+                            of historians, information researchers, citizen representatives, and specialists
+                            on the respective subject conducts regular audits of archival practices and access policies.
+                        </p>
+
+                        <p>
+                            Citizens may submit formal requests for document declassification or appeal access
+                            decisions through established channels. The Archives Authority is required to respond
+                            to all such requests within established timeframes and provide substantive reasoning
+                            for any access limitations.
+                        </p>
+
+                        <h2>Future Development</h2>
+                        <p>
+                            As the Stellar Syndicate continues to expand and evolve, the Archives Authority adapts
+                            its mission to meet new challenges. Current initiatives include development of advanced
+                            preservation technologies for novel information formats, expansion of collection coverage
+                            to newly incorporated systems, and enhancement of remote access capabilities for citizens
+                            in frontier regions.
+                        </p>
+
+                        <p>
+                            As laid out in the <em>Public Information Act</em>, the Archives Authority is committed to
+                            maintaining the highest standards of information quality and integrity. As universality is
+                            worked towards.
+                        </p>
+
+                        <p>
+                            The fundamental commitment remains constant: to serve as the guardian of collective memory
+                            and the facilitator of historical knowledge for all sentient beings, now
+                            and for generations to come.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <footer class="page-footer">
+                <div class="footer-content">
+                    <p>Stellar Syndicate of Free Worlds — Intersystem Archives Division</p>
+                    <p class="footer-note">Maintained in accordance with the Public Information Act 2385</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="../navigation.js"></script>
+</body>
+</html>
