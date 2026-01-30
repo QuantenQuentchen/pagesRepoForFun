@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constitution — Stellar Syndicate of Free Worlds</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="archive-logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+                    <path d="M16 8 L16 24 M8 16 L24 16" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/>
+                </svg>
+                <span class="archive-title">STELLAR ARCHIVES</span>
+            </div>
+        </div>
+
+        <div class="nav-section">
+            <!-- Navigation copied from template -->
+            <div class="nav-category" data-category="overview">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1.5"/>
+                        <line x1="8" y1="8" x2="8" y2="17" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                    <span class="nav-text">Overview</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="mission.html" class="nav-item nav-child">
+                        <span class="nav-text">Mission & Charter</span>
+                    </a>
+                    <a href="structure.html" class="nav-item nav-child">
+                        <span class="nav-text">Organizational Structure</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-category" data-category="history">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <circle cx="10" cy="10" r="7" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        <path d="M10 6 L10 10 L13 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                    </svg>
+                    <span class="nav-text">History</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="prehistoric.html" class="nav-item nav-child">
+                        <span class="nav-text">Prehistoric Era</span>
+                    </a>
+                    <a href="early-civ.html" class="nav-item nav-child">
+                        <span class="nav-text">Early Civilization</span>
+                    </a>
+                    <a href="theocratic.html" class="nav-item nav-child">
+                        <span class="nav-text">Theocratic Oppression</span>
+                    </a>
+                    <a href="early-revolution.html" class="nav-item nav-child">
+                        <span class="nav-text">Early Revolutionary Period</span>
+                    </a>
+                    <a href="late-revolution.html" class="nav-item nav-child">
+                        <span class="nav-text">Late Revolutionary Period</span>
+                    </a>
+                    <a href="current-era.html" class="nav-item nav-child">
+                        <span class="nav-text">Current Era</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-category" data-category="systems">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <circle cx="10" cy="10" r="2" fill="currentColor"/>
+                        <circle cx="4" cy="6" r="1.5" fill="currentColor"/>
+                        <circle cx="16" cy="7" r="1.5" fill="currentColor"/>
+                        <circle cx="5" cy="14" r="1.5" fill="currentColor"/>
+                        <circle cx="15" cy="14" r="1.5" fill="currentColor"/>
+                        <line x1="10" y1="10" x2="4" y2="6" stroke="currentColor" stroke-width="1"/>
+                        <line x1="10" y1="10" x2="16" y2="7" stroke="currentColor" stroke-width="1"/>
+                        <line x1="10" y1="10" x2="5" y2="14" stroke="currentColor" stroke-width="1"/>
+                        <line x1="10" y1="10" x2="15" y2="14" stroke="currentColor" stroke-width="1"/>
+                    </svg>
+                    <span class="nav-text">Systems</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="core-systems.html" class="nav-item nav-child">
+                        <span class="nav-text">Core Systems</span>
+                    </a>
+                    <a href="outer-territories.html" class="nav-item nav-child">
+                        <span class="nav-text">Outer Territories</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav-category" data-category="protocols">
+                <div class="nav-item nav-parent">
+                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
+                        <rect x="4" y="3" width="12" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                        <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1.5"/>
+                        <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1.5"/>
+                        <line x1="7" y1="13" x2="10" y2="13" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                    <span class="nav-text">Protocols</span>
+                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
+                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="nav-children">
+                    <a href="governance.html" class="nav-item nav-child">
+                        <span class="nav-text">Governance Protocols</span>
+                    </a>
+                    <a href="security.html" class="nav-item nav-child">
+                        <span class="nav-text">Security Directives</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-footer">
+            <div class="access-level">
+                <span class="access-label">ACCESS</span>
+                <span class="access-value">PUBLIC</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="page-header">
+                <div class="header-stripe"></div>
+                <div class="header-content">
+                    <h1 class="page-title">Intersystem Archives Database</h1>
+                    <p class="page-subtitle">Constitution — Stellar Syndicate of Free Worlds</p>
+                </div>
+                <div class="header-metadata">
+                    <span class="metadata-item">CLASSIFICATION: <span class="data-value">CONSTITUTIONAL</span></span>
+                    <span class="metadata-item">DOCUMENT ID: <span class="data-value">CONST-0001</span></span>
+                    <span class="metadata-item">RATIFIED: <span class="data-value">2429.XX.XX</span></span>
+                </div>
+            </header>
+
+            <div class="content-body">
+                <section class="document-section">
+                    <div class="document-header">
+                        <h1 class="document-title">FOUNDATIONAL PAPERS OF THE STELLAR SYNDICATE OF FREE WORLDS</h1>
+                        <div class="document-meta">
+                            <span class="classification classification-public">CONSTITUTIONAL</span>
+                            <span>DOCUMENT ID: <strong>CONST-0000</strong></span>
+                            <span>RATIFIED: <strong>2429.XX.XX</strong></span>
+                            <span>LAST UPDATED: <strong>2429.XX.XX</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="document-content">
+
+                        <div class="archive-note">
+                            <strong>ARCHIVE NOTE:</strong> For abbreviated reading and to understand the original
+                            normative intent behind the Constitution of the Stellar Syndicate of Free Worlds, it is
+                            recommended to read the Foundational Papers. The Foundational Papers represents the to date
+                            legally enforced outline of the Constitution
+                        </div>
+
+                        <h2>Preamble</h2>
+                        <p>
+                            We, the assembled delegates and citizens of the free councils, in order to secure the
+                            guarantees of liberty, equality, and mutual responsibility for all sapient beings within
+                            and under the protection of the Stellar Syndicate of Free Worlds, do hereby ordain and
+                            establish this Constitution as the supreme foundational law of the Syndicate. This
+                            instrument draws upon the revolutionary writings and practical guidance of the Early
+                            Revolutionary Period — notably the corpus known as <em>The Workers Papers</em>, including
+                            the <em>Workers Manifesto</em> and the <em>Worker's Tools</em> — and translates those
+                            principles into enforceable legal provisions.
+                        </p>
+                        <p>
+                            This text is a constitutional summary intended for publication in the Archives and for
+                            public reference. It is not, in all respects, the exact letter of every implementing
+                            statute or instrument; where finer legal detail is required, the codified statutes,
+                            implementing regulations, and registries shall be consulted as authoritative.
+                        </p>
+
+                        <h2>Article I — Definitions</h2>
+                        <p>
+                            For the purposes of this Constitution:
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>"Citizen":</strong>
+                                any sapient being discovered within Syndicate jurisdiction, born within Syndicate
+                                jurisdiction, or admitted pursuant to the processes established in Article II.
+                            </li>
+                            <li>
+                                <strong>"Council":</strong>
+                                a locally constituted citizens' assembly empowered to exercise the authority delegated
+                                to it by this Constitution.
+                            </li>
+                            <li>
+                                <strong>"Federation":</strong>
+                                a voluntary association of Councils formed to exercise delegated competencies at
+                                supra-local scales.
+                            </li>
+                            <li>
+                                <strong>"Participatory Worker Organization":</strong>
+                                a production, service, or research collective formed and governed by its members
+                                according to democratic statutes and recognized by Councils and Federations.
+                            </li>
+                            <li>
+                                <strong>"Critical Sector":</strong>
+                                goods, services, or infrastructures the disruption of which would constitute a systemic
+                                risk to public welfare or the continuity of the Syndicate; such sectors are enumerated
+                                in Article IV.
+                            </li>
+                        </ul>
+
+                        <h2>Article II — Citizenship</h2>
+                        <p>
+                            Section 1. Citizenship is a status of legal membership in the Syndicate, carrying rights and
+                            obligations as provided by law.
+                        </p>
+                        <p>
+                            Section 2. Every sapient being discovered within Syndicate space, born to Citizens of the
+                            Syndicate, or seeking admission under the admission statutes shall be entitled to apply for
+                            Citizenship. Application procedures shall be simple, universally accessible,
+                            non-discriminatory, and publicly documented.
+                        </p>
+                        <p>
+                            Section 3. Denial or revocation of Citizenship may occur only occur on a case-by-case basis
+                            specified by law and subject to prompt review by judicial bodies established in Article VII.
+                        </p>
+
+                        <h2>Article III — Fundamental Rights and Equality</h2>
+                         <p>
+                             Section 1. All Citizens are equal before the law. The Syndicate guarantees the following non-exhaustive list of rights:
+                         </p>
+                         <ul>
+                             <li>Freedom of assembly, speech, and association.</li>
+                             <li>Freedom of sexual and romantic expression, including the right to form consensual relationships and families, subject only to provisions safeguarding consent and mutual autonomy.</li>
+                             <li>Participation in the governance of Councils and Federations.</li>
+                             <li>Right to work in democratic workplaces and to form, join, or leave Participatory Worker Organizations.</li>
+                             <li>Protections for bodily and cognitive integrity; protections extend to synthetic and non-biological consciousnesses recognized as sapient.</li>
+                             <li>Equal access to public services, social support, and legal recourse.</li>
+                         </ul>
+                        <p>
+                            Section 2. Fundamental rights enumerated in this Article take primacy over any law,
+                            policy, regulation, or administrative act that would provide lesser protection. Any
+                            such inferior provision shall be deemed inconsistent with this Constitution and
+                            subject to challenge and invalidation through the judicial processes established
+                            herein.
+                        </p>
+
+                        <h2>Article IV — Economic Order</h2>
+                        <p>
+                            Section 1. The economic order of the Syndicate is founded on democratic participation in production and on public stewardship of Critical Sectors.
+                        </p>
+                        <p>
+                            Section 2. Critical Sectors shall be nationalized at either the planetary level or the federal level depending on scale and technical necessity. The following categories are illustrative and may be amended by statute:
+                        </p>
+
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Sector</th>
+                                    <th>Typical Level of Public Stewardship</th>
+                                    <th>Rationale</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Energy generation & distribution (long-range grids)</td>
+                                    <td>Planetary / Federal</td>
+                                    <td>Essential for life support and intersystem logistics</td>
+                                </tr>
+                                <tr>
+                                    <td>Intersystem communications & navigation registries</td>
+                                    <td>Federal</td>
+                                    <td>Continuity, safety, and shared access across Federations</td>
+                                </tr>
+                                <tr>
+                                    <td>Transportation hubs & orbital shipyard facilities</td>
+                                    <td>Planetary / Federal</td>
+                                    <td>Strategic infrastructure for movement of persons and goods</td>
+                                </tr>
+                                <tr>
+                                    <td>Water, primary life-support systems, large-scale food production</td>
+                                    <td>Planetary</td>
+                                    <td>Local ecological and human security considerations</td>
+                                </tr>
+                                <tr>
+                                    <td>Health, epidemiological response systems</td>
+                                    <td>Planetary / Federal</td>
+                                    <td>Public health externalities and intersystem coordination</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p>
+                            Section 3. Non-critical economic activities shall be organized primarily through
+                            Participatory Worker Organizations. These organizations shall be registered,
+                            recognized, and supported by Councils and may federate across jurisdictions by mutual
+                            agreement.
+                        </p>
+
+                        <p>
+                            Section 4. Transfer or privatization of Critical Sectors is prohibited except by a
+                            supermajority of the Federation of Councils and subject to binding provisions protecting
+                            public welfare.
+                        </p>
+
+                        <h2>Article V — Defense, Security, and the Militia</h2>
+                         <p>
+                             Section 1. The Syndicate maintains civilian-controlled defense and security forces for the
+                             protection of its people, infrastructure, and shared interests.
+                         </p>
+
+                         <p>
+                             Section 2. Citizens are subject to a compulsory Planetary Militia obligation established by
+                             statute. The militia is designed for nominal service that includes training, civil
+                             assistance, and local defence. The details of service lengths, exemptions, and
+                             accommodations shall be defined by statute and must conform to constitutional protections.
+                         </p>
+
+                         <p>
+                             Section 3. The organization of the Military Entities is governed by principles of
+                             "soldier democracy": unit councils composed of enlisted members shall elect and recall
+                             unit officers and shall participate in policy decisions affecting unit operations.
+                             Command authority is conditional upon mandate and recall.
+                         </p>
+
+                        <p>
+                            Section 4. In times of peace the Military's responsibilities shall include supplying
+                            and provisioning militia units, providing standardized education and training programs,
+                            and coordinating the integration of disparate militia formations into interoperable
+                            structures for mutual support. These duties are subject to civilian oversight and
+                            shall be exercised in a manner consistent with the principles of democratic control
+                            and unit autonomy described above.
+                        </p>
+
+                         <p>
+                             Section 5. Standing federated defense units (the Syndicate Defense Force) operate under
+                             direct civilian oversight as established by Federation statutes and this Constitution.
+                             No permanent executive may command or deploy these forces without authorized mandates
+                             ratified by the relevant Council or Federation body.
+                         </p>
+
+                        <h2>Article VI — Science, Technology, and Dangerous Materials</h2>
+                        <p>
+                            Section 1. Research and technological development are public goods of critical importance
+                            and shall be governed according to transparent, multi-disciplinary review procedures created
+                            by the Scientific Intersectional Council and ratified by the Federation of Workers' Councils.
+                        </p>
+
+                        <p>
+                            Section 2. Activities involving materials, experiments, or methods that present a systemic
+                            risk to public welfare
+                            (including but not limited to weaponizable or mass-destructive applications) shall be placed
+                            under federal oversight. Such oversight shall include documented chains of custody, controlled study protocols, and multi-disciplinary review. The Revolutionary Justice Council's findings regarding past misuse of such materials inform present prohibitions and oversight practices.
+                        </p>
+
+                        <h2>Article VII — Judiciary, Transitional Justice, and Oversight</h2>
+                        <p>
+                            Section 1. The judicial system shall be distributed and restorative in character. Local tribunals shall hear ordinary matters; a federated appellate system shall adjudicate disputes of broader significance.
+                        </p>
+
+                        <p>
+                            Section 2. Transitional justice mechanisms, as established by the Revolutionary Justice Council (RJC) and subsequent legislation, shall remain part of the legal order to address crimes committed during the period of regime collapse and reconstruction. Procedures for accountability are codified and subject to independent review.
+                        </p>
+
+                        <p>
+                            Section 3. The Citizens' Rights Oversight Bureau (CROB) is established as an independent oversight organ with the power to audit, investigate, and report on potential abuses of power, emergent hierarchies, and violations of civil liberties. CROB's reports shall be published unless classified for narrowly defined security reasons.
+                        </p>
+
+                        <h2>Article VIII — Administrative Principles</h2>
+                         <p>
+                             Section 1. Rotating mandates, direct accountability, and transparency are administrative principles required of all public offices and federated organs.
+                         </p>
+
+                         <p>
+                             Section 2. Administrative offices and mandates shall be limited in duration, revocable through recall procedures, and subject to routine audit and public reporting.
+                         </p>
+                         <p>
+                             Section 3. The Syndicate adopts an approach known as "additive governance": Planetary
+                             and Federal bodies shall promulgate baseline standards intended to guarantee fundamental
+                             protections and operational interoperability. Councils, Federations, and Participatory
+                             Worker Organizations may supplement and elaborate upon these baseline standards to
+                             meet local conditions, provided that such additions do not diminish the protections or
+                             rights guaranteed at higher levels. This approach seeks to ensure minimum uniformity
+                             while enabling contextual adaptation and local initiative.
+                        </p>
+
+                        <h2>Article IX — Amendment</h2>
+                        <p>
+                            Section 1. Amendments to this Constitution require a two-stage process: (a) a proposal, supported by a supermajority of the Federation of Workers' Councils or by a petition of Councils representing a statutory minimum of the population; and (b) ratification by popular referendum or by the federated councils as prescribed by statute.
+                        </p>
+
+                        <p>
+                            Section 2. Amendments that materially alter protections for fundamental rights, the public stewardship of Critical Sectors, or the constitutional status of Citizenship shall require a higher supermajority and an extended deliberative period as prescribed by law.
+                        </p>
+
+                        <h2>Article X — Transitional and Saving Provisions</h2>
+                        <p>
+                            Section 1. Existing statutes, contracts, and organizational charters remain in force to the extent compatible with this Constitution, and shall be brought into conformity through a phased program of legal harmonization administered by the Coordination Secretariat and reviewed by CROB.
+                        </p>
+
+                        <h2>Closing Clauses</h2>
+                        <p>
+                            This Constitution is enacted to realize a durable order of collective self-governance, economic democracy, and shared responsibility. It shall be interpreted so as to preserve the rights of Citizens, to prevent the return of concentrations of unaccountable power, and to enable the Syndicate's participation in a wider intersystem community governed by law and mutual respect.
+                        </p>
+
+                        <p>
+                            Adopted by the Founding Convocation on behalf of the Federation of Workers' Councils.
+                        </p>
+
+                        <blockquote>
+                            "Let law bind us to each other in equality; let the institutions be instruments of service,
+                            never of domination." — Founding Convocation Preamble
+                        </blockquote>
+                    </div>
+                </section>
+            </div>
+
+            <footer class="page-footer">
+                <div class="footer-content">
+                    <p>Stellar Syndicate of Free Worlds — Constitutional Registry</p>
+                    <p class="footer-note">Maintained in accordance with the Public Information Act 2385</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="../navigation.js"></script>
+</body>
+</html>
