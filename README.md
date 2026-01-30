@@ -1,5 +1,3 @@
-# Stellar Archives - Futuristic Archive System
-
 ## Overview
 This is a self-contained HTML-based archive system designed for storytelling and roleplay purposes. It features a collapsible sidebar navigation, futuristic sci-fi governmental aesthetic, and a consistent template system for easy content creation.
 
