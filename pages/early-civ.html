@@ -30,136 +30,8 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <!-- Sidebar Navigation -->
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <div class="archive-logo">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
-                    <path d="M16 8 L16 24 M8 16 L24 16" stroke="currentColor" stroke-width="2"/>
-                    <circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/>
-                </svg>
-                <span class="archive-title">STELLAR ARCHIVES</span>
-            </div>
-        </div>
 
-        <div class="nav-section">
-            <!-- Copy navigation structure from index.html -->
-            <div class="nav-category" data-category="overview">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="8" y1="8" x2="8" y2="17" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Overview</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="mission.html" class="nav-item nav-child">
-                        <span class="nav-text">Mission & Charter</span>
-                    </a>
-                    <a href="structure.html" class="nav-item nav-child">
-                        <span class="nav-text">Organizational Structure</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="history">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="7" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <path d="M10 6 L10 10 L13 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">History</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="prehistoric.html" class="nav-item nav-child">
-                        <span class="nav-text">Prehistoric Era</span>
-                    </a>
-                    <a href="early-civ.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Civilization</span>
-                    </a>
-                    <a href="theocratic.html" class="nav-item nav-child">
-                        <span class="nav-text">Theocratic Oppression</span>
-                    </a>
-                    <a href="early-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Revolutionary Period</span>
-                    </a>
-                    <a href="late-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Late Revolutionary Period</span>
-                    </a>
-                    <a href="current-era.html" class="nav-item nav-child">
-                        <span class="nav-text">Current Era</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="systems">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="2" fill="currentColor"/>
-                        <circle cx="4" cy="6" r="1.5" fill="currentColor"/>
-                        <circle cx="16" cy="7" r="1.5" fill="currentColor"/>
-                        <circle cx="5" cy="14" r="1.5" fill="currentColor"/>
-                        <circle cx="15" cy="14" r="1.5" fill="currentColor"/>
-                        <line x1="10" y1="10" x2="4" y2="6" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="16" y2="7" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="5" y2="14" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="15" y2="14" stroke="currentColor" stroke-width="1"/>
-                    </svg>
-                    <span class="nav-text">Systems</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="core-systems.html" class="nav-item nav-child">
-                        <span class="nav-text">Core Systems</span>
-                    </a>
-                    <a href="outer-territories.html" class="nav-item nav-child">
-                        <span class="nav-text">Outer Territories</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="protocols">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="4" y="3" width="12" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="13" x2="10" y2="13" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Protocols</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="governance.html" class="nav-item nav-child">
-                        <span class="nav-text">Governance Protocols</span>
-                    </a>
-                    <a href="security.html" class="nav-item nav-child">
-                        <span class="nav-text">Security Directives</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="sidebar-footer">
-            <div class="access-level">
-                <span class="access-label">ACCESS</span>
-                <span class="access-value">PUBLIC</span>
-            </div>
-        </div>
-    </nav>
-
+    <div id="sidebar-container"></div>
     <!-- Main Content -->
     <main class="main-content">
         <div class="content-wrapper">
@@ -182,8 +54,8 @@
                         <div class="document-meta">
                             <span class="classification classification-public">PUBLIC</span>
                             <span>DOCUMENT ID: <strong>ARCH-2425-EC01</strong></span>
-                            <span>PUBLISHED: <strong>2425.03.12</strong></span>
-                            <span>LAST UPDATED: <strong>2428.11.05</strong></span>
+                            <span>PUBLISHED: <strong>2138.03.12</strong></span>
+                            <span>LAST UPDATED: <strong>2190.11.05</strong></span>
                         </div>
                     </div>
 
@@ -223,7 +95,7 @@
                                 for science, for information, it is unimaginable in our modern society. The loss of
                                 information is immeasurable; we don't even know where to start to figure out how much,
                                 we've lost." <br>~ excerpted from a lecture by
-                                Dr. Liora Venn, Member of the Historical Comittee on Pre-Regime Studies
+                                Dr. Liora Venn, Member of the Historical Committee on Pre-Regime Studies
                             </blockquote>
 
                         </div>
@@ -231,7 +103,7 @@
                         <h2>The Age of Convergence</h2>
                         <p>
                             Following the <strong>Prehistoric Era</strong>, Early Civilization marks the first recorded 
-                            efforts to unify disparate societal clusters. Spanning the 9th to the late 15th century, 
+                            efforts to unify disparate societal clusters. Spanning the 10th to the late 16th century,
                             this era was defined by the expansion of continental trade routes and the emergence of 
                             formalized knowledge-sharing networks.
                         </p>
@@ -247,7 +119,7 @@
                         <blockquote>
                             "The pulse of our world is found in the wake of the trade-ships and the dust of the 
                             caravans, not just the humming of the deep stone." <br>
-                            — <em>attributed to Archon Valerius, circa 1142.</em>
+                            — <em>attributed to Archon Valerius, circa 1242.</em>
                         </blockquote>
 
                         <h3>Early Research & Scholasticism</h3>
@@ -335,7 +207,7 @@
 
                         <h3>Major Historical Occurrences</h3>
                         <p>
-                            The <strong>Great Schism of the Mons Olympus</strong> (1314) saw city-states fight for
+                            The <strong>Great Schism of the Mons Olympus</strong> (1414) saw city-states fight for
                             the <em>Aethelgard Crater</em>, a major surface deposit. The conflict ended with the 
                             <strong>Accord of the Shimmering Veil</strong>, establishing a global standard for 
                             gravimetric measurement—the first step toward a unified planetary economy.
@@ -381,19 +253,14 @@
 
                         <blockquote>
                             "We built a world on foundations we did not yet understand." <br>
-                            — <em>Chronicler Elara, 1498.</em>
+                            — <em>Chronicler Elara, 1598.</em>
                         </blockquote>
 
                     </div>
                 </section>
             </div>
 
-            <footer class="page-footer">
-                <div class="footer-content">
-                    <p>Stellar Syndicate of Free Worlds — Intersystem Archives Division</p>
-                    <p class="footer-note">Maintained in accordance with the Public Information Act 2385</p>
-                </div>
-            </footer>
+            <div id="footer-container"></div>
         </div>
     </main>
 

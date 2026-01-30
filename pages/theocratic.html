@@ -30,136 +30,7 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <!-- Sidebar Navigation -->
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <div class="archive-logo">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
-                    <path d="M16 8 L16 24 M8 16 L24 16" stroke="currentColor" stroke-width="2"/>
-                    <circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/>
-                </svg>
-                <span class="archive-title">STELLAR ARCHIVES</span>
-            </div>
-        </div>
-
-        <div class="nav-section">
-            <!-- Copy navigation structure from index.html -->
-            <div class="nav-category" data-category="overview">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="8" y1="8" x2="8" y2="17" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Overview</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="mission.html" class="nav-item nav-child">
-                        <span class="nav-text">Mission & Charter</span>
-                    </a>
-                    <a href="structure.html" class="nav-item nav-child">
-                        <span class="nav-text">Organizational Structure</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="history">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="7" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <path d="M10 6 L10 10 L13 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">History</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="prehistoric.html" class="nav-item nav-child">
-                        <span class="nav-text">Prehistoric Era</span>
-                    </a>
-                    <a href="early-civ.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Civilization</span>
-                    </a>
-                    <a href="theocratic.html" class="nav-item nav-child">
-                        <span class="nav-text">Theocratic Oppression</span>
-                    </a>
-                    <a href="early-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Revolutionary Period</span>
-                    </a>
-                    <a href="late-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Late Revolutionary Period</span>
-                    </a>
-                    <a href="current-era.html" class="nav-item nav-child">
-                        <span class="nav-text">Current Era</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="systems">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="2" fill="currentColor"/>
-                        <circle cx="4" cy="6" r="1.5" fill="currentColor"/>
-                        <circle cx="16" cy="7" r="1.5" fill="currentColor"/>
-                        <circle cx="5" cy="14" r="1.5" fill="currentColor"/>
-                        <circle cx="15" cy="14" r="1.5" fill="currentColor"/>
-                        <line x1="10" y1="10" x2="4" y2="6" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="16" y2="7" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="5" y2="14" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="15" y2="14" stroke="currentColor" stroke-width="1"/>
-                    </svg>
-                    <span class="nav-text">Systems</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="core-systems.html" class="nav-item nav-child">
-                        <span class="nav-text">Core Systems</span>
-                    </a>
-                    <a href="outer-territories.html" class="nav-item nav-child">
-                        <span class="nav-text">Outer Territories</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="protocols">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="4" y="3" width="12" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="13" x2="10" y2="13" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Protocols</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="governance.html" class="nav-item nav-child">
-                        <span class="nav-text">Governance Protocols</span>
-                    </a>
-                    <a href="security.html" class="nav-item nav-child">
-                        <span class="nav-text">Security Directives</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="sidebar-footer">
-            <div class="access-level">
-                <span class="access-label">ACCESS</span>
-                <span class="access-value">PUBLIC</span>
-            </div>
-        </div>
-    </nav>
-
+    <div id="sidebar-container"></div>
     <!-- Main Content -->
     <main class="main-content">
         <div class="content-wrapper">
@@ -182,8 +53,8 @@
                         <div class="document-meta">
                             <span class="classification classification-public">PUBLIC</span>
                             <span>DOCUMENT ID: <strong>ARCH-XXXX-XXXX</strong></span>
-                            <span>PUBLISHED: <strong>2425.XX.XX</strong></span>
-                            <span>LAST UPDATED: <strong>2428.XX.XX</strong></span>
+                            <span>PUBLISHED: <strong>2132.12.29</strong></span>
+                            <span>LAST UPDATED: <strong>2199.12.30</strong></span>
                         </div>
                     </div>
 
@@ -254,7 +125,7 @@
                         </p>
 
                         <p>
-                            In 1851, the regime issued <em>Secret Order: 1633</em> to create a safer system to research
+                            In 2031, the regime issued <em>Secret Order: 1633</em> to create a safer system to research
                             manipulate and control <em>Non-Baryonic Matter</em>. The order was issued to both internal
                             ministries and corporations. Amongst the different effects of the order, none are as impactful
                             as the creation of the first Synthetic entity. Altho originally created only for limited
@@ -266,20 +137,20 @@
                         </p>
 
                         <p>
-                            After their creation, synthetic sufferd as much, if not arguably more oppression and hardship
+                            After their creation, synthetic suffered as much, if not arguably more oppression and hardship
                             than the biological populace. With official regime Doctrine stating, synthetic lifeforms do
                             not possess, agency, a soul, or even the constrained rights, biological lifeforms were granted.
                         </p>
 
                         <blockquote>
                             "To increase safety and profitability, in the areas of research and productivity, it is
-                            hereby mandated that representatives of the ministries, and the economy shall conveen to
-                            discuss alternatives to the current system." ~ Secret Order: 1633, 1851.
+                            hereby mandated that representatives of the ministries, and the economy shall convene to
+                            discuss alternatives to the current system." ~ Secret Order: 1633, 2031.
                         </blockquote>
 
                         <h2>Organization</h2>
                         <p>
-                            The organizational realities of the regime, even if self described as being of religious nature.
+                            The organizational realities of the regime, even if self-described as being of religious nature.
                             Is much better understood as a merger of Profit seeking private corporations and the church.
                             Forming a governmental body that was organizationally inefficient, redundant, overlapping
                             and unstable. There are no recorded cases of natural death amongst the leading figures of the
@@ -289,11 +160,11 @@
 
                         <h3>Government</h3>
                         <p>
-                            Day-to-day governance was facilitated by a complex beurocracy, fundamentally under the oversight
+                            Day-to-day governance was facilitated by a complex bureaucracy, fundamentally under the oversight
                             of the <em>High Clergy</em>. While this might have been the case on paper, the reality was that
                             there was no clear distinction between Governance, and economy. Many high-ranking officials held
                             dual roles in both the governmental and corporate sectors. Enforcement often being delegated
-                            to private entities. Laws were selectively applied, often contradictory, often cannonicized
+                            to private entities. Laws were selectively applied, often contradictory, often canonized
                             versions of company Codes of Conduct.
                         </p>
 
@@ -325,20 +196,20 @@
 
                         <p>
                             <strong><em>Supreme Priest:</em></strong> The Supreme Priest was the ruling figure of the
-                            regime. The Priest had absolute authority, on all matters. Generally delegating it's
+                            regime. The Priest had absolute authority, on all matters. Generally delegating its
                             personal power to Ministries.
                         </p>
 
                         <h3>Military Organizations</h3>
                         <p>
-                            In the history of the regime there have been a variety of military, para-military, and pseudo
+                            In the history of the regime there have been a variety of military, paramilitary, and pseudo
                             military forces. With often overlapping and unclear authority.
                         </p>
 
                         <p>
                             <strong><em>Keepers of Faith:</em></strong> The keepers acted as the de-facto police force,
                             enforcing both governmental laws, and private company codes alike. The Keepers were structured
-                            similarly to the Military, with similar ranks, training and equipment. It maintained it's own
+                            similarly to the Military, with similar ranks, training and equipment. It maintained its own
                             intelligence service the <em>Eye of God</em>. It was the main coercive power used by the regime
                             in the early stages of the revolution.
                         </p>
@@ -359,11 +230,11 @@
                         <p>
                             Beyond the internal intelligence services of various military organizations. Different
                             ministries and corporations had their own intelligence agencies. All of which operating in
-                            parallel, often adverserial. The historically most significant of which where:
+                            parallel, often adversarial. The historically most significant of which where:
                         </p>
 
                         <p>
-                            <strong><em>Ministry of Care:</em></strong> The Ministry of Care was tasked with maintaing
+                            <strong><em>Ministry of Care:</em></strong> The Ministry of Care was tasked to maintain
                             incarceration systems. It operated a large network of prisons, labor camps, and
                             re-education facilities. Maintaining its own intelligence service that mainly operated
                             within these facilities. Historically it has operated under different names, 2 of which are
@@ -435,7 +306,7 @@
                             to me in the next Election. If you don't get that, I have methods to get rid of you."
                             Tny Blor: "Yes of course, I am sorry to have questioned you" <br>
                             ~Private conversation between newly elected High Clergy Member 'Tny Blor' and sitting supreme
-                            priest 'Gorg Besh'. 1976.2.13. Recovered from the archives of the <em>Eye of God</em>, also
+                            priest 'Gorg Besh'. 2076.2.13. Recovered from the archives of the <em>Eye of God</em>, also
                             present in the archives of the <em>Office for Heresy</em>, and the <em>Department of Worker Health</em>
                             (corporate intelligence, Rhone inc.)
                         </blockquote>
@@ -444,12 +315,7 @@
                 </section>
             </div>
 
-            <footer class="page-footer">
-                <div class="footer-content">
-                    <p>Stellar Syndicate of Free Worlds — Intersystem Archives Division</p>
-                    <p class="footer-note">Maintained in accordance with the Public Information Act 2385</p>
-                </div>
-            </footer>
+            <div id="footer-container"></div>
         </div>
     </main>
 

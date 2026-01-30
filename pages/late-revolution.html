@@ -30,137 +30,7 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <!-- Sidebar Navigation -->
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <div class="archive-logo">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
-                    <path d="M16 8 L16 24 M8 16 L24 16" stroke="currentColor" stroke-width="2"/>
-                    <circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/>
-                </svg>
-                <span class="archive-title">STELLAR ARCHIVES</span>
-            </div>
-        </div>
-
-        <div class="nav-section">
-            <!-- Copy navigation structure from index.html -->
-            <div class="nav-category" data-category="overview">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="8" y1="8" x2="8" y2="17" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Overview</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="mission.html" class="nav-item nav-child">
-                        <span class="nav-text">Mission & Charter</span>
-                    </a>
-                    <a href="structure.html" class="nav-item nav-child">
-                        <span class="nav-text">Organizational Structure</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="history">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="7" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <path d="M10 6 L10 10 L13 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">History</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="prehistoric.html" class="nav-item nav-child">
-                        <span class="nav-text">Prehistoric Era</span>
-                    </a>
-                    <a href="early-civ.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Civilization</span>
-                    </a>
-                    <a href="theocratic.html" class="nav-item nav-child">
-                        <span class="nav-text">Theocratic Oppression</span>
-                    </a>
-                    <a href="early-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Revolutionary Period</span>
-                    </a>
-                    <a href="late-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Late Revolutionary Period</span>
-                    </a>
-                    <a href="current-era.html" class="nav-item nav-child">
-                        <span class="nav-text">Current Era</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="systems">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="2" fill="currentColor"/>
-                        <circle cx="4" cy="6" r="1.5" fill="currentColor"/>
-                        <circle cx="16" cy="7" r="1.5" fill="currentColor"/>
-                        <circle cx="5" cy="14" r="1.5" fill="currentColor"/>
-                        <circle cx="15" cy="14" r="1.5" fill="currentColor"/>
-                        <line x1="10" y1="10" x2="4" y2="6" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="16" y2="7" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="5" y2="14" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="15" y2="14" stroke="currentColor" stroke-width="1"/>
-                    </svg>
-                    <span class="nav-text">Systems</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="core-systems.html" class="nav-item nav-child">
-                        <span class="nav-text">Core Systems</span>
-                    </a>
-                    <a href="outer-territories.html" class="nav-item nav-child">
-                        <span class="nav-text">Outer Territories</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="protocols">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="4" y="3" width="12" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="13" x2="10" y2="13" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Protocols</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="governance.html" class="nav-item nav-child">
-                        <span class="nav-text">Governance Protocols</span>
-                    </a>
-                    <a href="security.html" class="nav-item nav-child">
-                        <span class="nav-text">Security Directives</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="sidebar-footer">
-            <div class="access-level">
-                <span class="access-label">ACCESS</span>
-                <span class="access-value">PUBLIC</span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main Content -->
+    <div id="sidebar-container"></div>
     <main class="main-content">
         <div class="content-wrapper">
             <header class="page-header">
@@ -182,17 +52,16 @@
                         <div class="document-meta">
                             <span class="classification classification-public">PUBLIC</span>
                             <span>DOCUMENT ID: <strong>ARCH-HIST-2246</strong></span>
-                            <span>PUBLISHED: <strong>2387.05.20</strong></span>
-                            <span>LAST UPDATED: <strong>2428.11.15</strong></span>
+                            <span>PUBLISHED: <strong>2137.02.30</strong></span>
+                            <span>LAST UPDATED: <strong>2199.11.15</strong></span>
                         </div>
                     </div>
 
                     <div class="document-content">
-                        <!-- YOUR CONTENT GOES HERE -->
                         
                         <h2>Overview</h2>
                         <p>
-                            The Late Revolutionary Period (Standard Years 1999–2021) represents the transition from 
+                            The Late Revolutionary Period (Standard Years 2099–2121) represents the transition from
                             underground resistance to total planetary civil war. Characterized by extreme brutality, 
                             asymmetric tactics, and the eventual collapse of the Theocratic Regime, this era 
                             transformed the disparate syndicalist cells into the organized military and political 
@@ -201,7 +70,7 @@
 
                         <h2>From Resistance to Civil War</h2>
                         <p>
-                            The formation of the <strong>Underground Congress</strong> in 1998 provided the 
+                            The formation of the <strong>Underground Congress</strong> in 2098 provided the
                             organizational framework for coordination, yet the resistance remained a heterogeneous 
                             coalition. Far from a monolithic entity, the movement was composed of autonomous 
                             <strong>Workers' Councils</strong>, <strong>Synthetic Liberation Fronts</strong>, 
@@ -221,7 +90,7 @@
                         <h3>The Brutality of the Counter-Insurgency</h3>
                         <p>
                             As the Regime felt its grip slipping, its methods became increasingly desperate and 
-                            indiscriminate. The lessons of the <em>Week of Faith</em> (1975) were applied with 
+                            indiscriminate. The lessons of the <em>Week of Faith</em> (2075) were applied with
                             mechanical precision. Captured revolutionaries were not merely executed; they were 
                             subjected to horrific biological and psychological "re-education" protocols. The Regime 
                             weaponized its remaining technological advantages to conduct mass-scale punitive 
@@ -232,7 +101,7 @@
                             "They don't want us to just die; they want us to be unmade. To have our very 
                             existence erased by the 'Darkness' they claim to worship. We do not fear the 
                             void anymore; we have been living in it for centuries." <br>
-                            — <em>Field Commander Kael, log entry during the Siege of the Sunken Spires, 2012.</em>
+                            — <em>Field Commander Kael, log entry during the Siege of the Sunken Spires, 2112.</em>
                         </blockquote>
 
                         <h2>Asymmetric Warfare & Strategic Sabotage</h2>
@@ -262,9 +131,9 @@
                             In its effort to gain ground, expand operational capacities, and break the will of the regime.
                             The usage of civilian bombings, the targeting og non-military infrastructure and population
                             centers, became a common occurrence. In isolated cases even using <em>Non-Baryonic-Explosives</em>
-                            (NBEs). These tactics remain a controversial subject in modern discourse, with debates centering on the
-                            ethical implications of such actions versus their strategic necessity in the context of a
-                            liberation endeavor.
+                            (NBEs). These tactics remain a controversial subject in modern discourse, with debates
+                            centering on the ethical implications of such actions versus their strategic necessity in
+                            the context of a liberation endeavor.
                         </p>
 
                         <p>
@@ -296,7 +165,7 @@
                             can wake up in a world, not experiencing the realities of war, capable of
                             condemning such actions. But that day is not today."<br>
                             ~ <em>Head of military co-ordination comittee</em> Underground Congress, addressing the
-                            Congress assembly, 18.01.2002
+                            Congress assembly, 18.01.2102
                         </blockquote>
 
                         <h2>Specific Major Events</h2>
@@ -311,29 +180,29 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>2004</td>
+                                    <td>2104</td>
                                     <td>The Falling Spire</td>
                                     <td>The structural sabotage of the Grand Temple of Aethelgard. Resulted in the elimination of 40% of the high-level administrative clergy.</td>
                                 </tr>
                                 <tr>
-                                    <td>2008</td>
+                                    <td>2108</td>
                                     <td>The Iron Foothills Uprising</td>
                                     <td>Seizure of primary metallurgy and smelting hubs by a coalition of miners and defecting security units. Securing the first consistent heavy armaments for the Militia.</td>
                                 </tr>
                                 <tr>
-                                    <td>2014</td>
+                                    <td>2114</td>
                                     <td>The Great Network Breach</td>
                                     <td>A coordinated electronic strike by Synthetic Ghost Units, liberating 60% of planetary server nodes and permanently dismantling the Regime's propaganda broadcast capabilities.</td>
                                 </tr>
                                 <tr>
-                                    <td>2019-2021</td>
+                                    <td>2119-2121</td>
                                     <td>The Final Convergence</td>
                                     <td>A multi-theater offensive across all remaining Theocratic strongholds, culminating in the unconditional surrender of the Corporate-Faith High Command.</td>
                                 </tr>
                             </tbody>
                         </table>
 
-                        <h3>The Liberation of the Sunken Spires (2012)</h3>
+                        <h3>The Liberation of the Sunken Spires (2112)</h3>
                         <p>
                             The battle for the Sunken Spires is documented as one of the war's most grueling maritime 
                             campaigns. For three months, the Regime utilized the civilian maritime population as 
@@ -346,11 +215,11 @@
 
                         <h2>Revolutionary Justice Council</h2>
                         <p>
-                            Following the surrender of the Regime in 2021, the <strong>Revolutionary Justice 
+                            Following the surrender of the Regime in 2121, the <strong>Revolutionary Justice
                             Council</strong> was convened to address the atrocities committed during the previous 
                             centuries. The Council's mandate was to investigate and adjudicate crimes against the 
                             populace, with a specific focus on the catastrophic events of the <strong>Week of 
-                            Faith</strong> (1975) and subsequent decades of oppression.
+                            Faith</strong> (2075) and subsequent decades of oppression.
                         </p>
                         <p>
                             The Council meticulously documented the Regime's use of <strong>Non-Baryonic Matter 
@@ -442,7 +311,7 @@
 
                         <h3>Judgments concerning Revolutionary Actions</h3>
                         <p>
-                            After the 2021 sessions, the RJC issued a series of judgments concerning the
+                            After the 2121 sessions, the RJC issued a series of judgments concerning the
                             actions of various Actors within Revolutionary Bodies. While the majority of these judgments
                             were <strong>Incarceration</strong>, the following table summarizes the
                             <strong>most significant outcomes</strong> of these Judgments.
@@ -501,20 +370,14 @@
                         <blockquote>
                             "We won the war, but we lost the world we knew. Now we must build the one we 
                             actually deserve." <br>
-                            — <em>Final Address of the Underground Congress, 2021.</em>
+                            — <em>Final Address of the Underground Congress, 2121.</em>
                         </blockquote>
 
-                        <!-- END OF YOUR CONTENT -->
                     </div>
                 </section>
             </div>
 
-            <footer class="page-footer">
-                <div class="footer-content">
-                    <p>Stellar Syndicate of Free Worlds — Intersystem Archives Division</p>
-                    <p class="footer-note">Maintained in accordance with the Public Information Act 2385</p>
-                </div>
-            </footer>
+            <div id="footer-container"></div>
         </div>
     </main>
 

@@ -30,136 +30,7 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <!-- Sidebar Navigation -->
-    <nav class="sidebar" id="sidebar">
-        <div class="sidebar-header">
-            <div class="archive-logo">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
-                    <path d="M16 8 L16 24 M8 16 L24 16" stroke="currentColor" stroke-width="2"/>
-                    <circle cx="16" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/>
-                </svg>
-                <span class="archive-title">STELLAR ARCHIVES</span>
-            </div>
-        </div>
-
-        <div class="nav-section">
-            <!-- Copy navigation structure from index.html -->
-            <div class="nav-category" data-category="overview">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="8" y1="8" x2="8" y2="17" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Overview</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="mission.html" class="nav-item nav-child">
-                        <span class="nav-text">Mission & Charter</span>
-                    </a>
-                    <a href="structure.html" class="nav-item nav-child">
-                        <span class="nav-text">Organizational Structure</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="history">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="7" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <path d="M10 6 L10 10 L13 12" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">History</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="prehistoric.html" class="nav-item nav-child">
-                        <span class="nav-text">Prehistoric Era</span>
-                    </a>
-                    <a href="early-civ.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Civilization</span>
-                    </a>
-                    <a href="theocratic.html" class="nav-item nav-child">
-                        <span class="nav-text">Theocratic Oppression</span>
-                    </a>
-                    <a href="early-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Early Revolutionary Period</span>
-                    </a>
-                    <a href="late-revolution.html" class="nav-item nav-child">
-                        <span class="nav-text">Late Revolutionary Period</span>
-                    </a>
-                    <a href="current-era.html" class="nav-item nav-child">
-                        <span class="nav-text">Current Era</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="systems">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <circle cx="10" cy="10" r="2" fill="currentColor"/>
-                        <circle cx="4" cy="6" r="1.5" fill="currentColor"/>
-                        <circle cx="16" cy="7" r="1.5" fill="currentColor"/>
-                        <circle cx="5" cy="14" r="1.5" fill="currentColor"/>
-                        <circle cx="15" cy="14" r="1.5" fill="currentColor"/>
-                        <line x1="10" y1="10" x2="4" y2="6" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="16" y2="7" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="5" y2="14" stroke="currentColor" stroke-width="1"/>
-                        <line x1="10" y1="10" x2="15" y2="14" stroke="currentColor" stroke-width="1"/>
-                    </svg>
-                    <span class="nav-text">Systems</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="core-systems.html" class="nav-item nav-child">
-                        <span class="nav-text">Core Systems</span>
-                    </a>
-                    <a href="outer-territories.html" class="nav-item nav-child">
-                        <span class="nav-text">Outer Territories</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="nav-category" data-category="protocols">
-                <div class="nav-item nav-parent">
-                    <svg class="nav-icon" width="20" height="20" viewBox="0 0 20 20">
-                        <rect x="4" y="3" width="12" height="14" rx="1" stroke="currentColor" fill="none" stroke-width="1.5"/>
-                        <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1.5"/>
-                        <line x1="7" y1="13" x2="10" y2="13" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                    <span class="nav-text">Protocols</span>
-                    <svg class="nav-arrow" width="12" height="12" viewBox="0 0 12 12">
-                        <polyline points="3,4 6,7 9,4" fill="none" stroke="currentColor" stroke-width="1.5"/>
-                    </svg>
-                </div>
-                <div class="nav-children">
-                    <a href="governance.html" class="nav-item nav-child">
-                        <span class="nav-text">Governance Protocols</span>
-                    </a>
-                    <a href="security.html" class="nav-item nav-child">
-                        <span class="nav-text">Security Directives</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="sidebar-footer">
-            <div class="access-level">
-                <span class="access-label">ACCESS</span>
-                <span class="access-value">PUBLIC</span>
-            </div>
-        </div>
-    </nav>
-
+    <div id="sidebar-container"></div>
     <!-- Main Content -->
     <main class="main-content">
         <div class="content-wrapper">
@@ -240,12 +111,7 @@
                 </section>
             </div>
 
-            <footer class="page-footer">
-                <div class="footer-content">
-                    <p>Stellar Syndicate of Free Worlds — Intersystem Archives Division</p>
-                    <p class="footer-note">Maintained in accordance with the Public Information Act 2385</p>
-                </div>
-            </footer>
+            <div id="footer-container"></div>
         </div>
     </main>
 
