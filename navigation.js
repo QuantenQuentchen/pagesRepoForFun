@@ -2,70 +2,54 @@
 // STELLAR ARCHIVES - NAVIGATION SCRIPT
 // ============================================
 
-document.addEventListener('DOMContentLoaded', function() {
-    loadComponents().then(() => {
-        initNavigation();
-    });
-});
+let navigationInitialized = false;
 
-// ============================================
-// COMPONENT LOADING
-// ============================================
-
-async function loadComponents() {
-    // Determine the base path for components based on current page location
-    const currentPath = window.location.pathname;
-    const isInSubfolder = currentPath.includes('/pages/');
-    const basePath = isInSubfolder ? '../components/' : 'components/';
-    
-    const components = [
-        { id: 'sidebar-container', file: 'sidebar.html' },
-        { id: 'header-container', file: 'page-header.html' },
-        { id: 'footer-container', file: 'page-footer.html' }
-    ];
-    
-    const promises = components.map(component => 
-        loadComponent(basePath + component.file, component.id)
-    );
-    
-    await Promise.all(promises);
-}
-
-async function loadComponent(url, containerId) {
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`Failed to load ${url}: ${response.status}`);
-        }
-        const html = await response.text();
-        const container = document.getElementById(containerId);
-        if (container) {
-            container.innerHTML = html;
-            
-            // Fix relative paths in links if we're in a subfolder
-            if (window.location.pathname.includes('/pages/')) {
-                fixRelativePaths(container);
-            }
-        }
-    } catch (error) {
-        console.error(`Error loading component from ${url}:`, error);
-        // Optionally show user-friendly error
+function initializeNavigation() {
+    if (navigationInitialized) {
+        return;
     }
+
+    navigationInitialized = true;
+    normalizeSidebarLinks();
+    initNavigation();
+    setupAnchorScrolling();
 }
 
-function fixRelativePaths(container) {
-    // Fix links that point to pages/ - they should point to current directory
-    const links = container.querySelectorAll('a[href^="pages/"]');
-    links.forEach(link => {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeNavigation, { once: true });
+} else {
+    initializeNavigation();
+}
+
+function normalizeSidebarLinks() {
+    const currentPath = window.location.pathname;
+    const isInPages = currentPath.split('/').includes('pages');
+    const sidebar = document.getElementById('sidebar');
+
+    if (!sidebar) {
+        return;
+    }
+
+    sidebar.querySelectorAll('a[href]').forEach(link => {
         const href = link.getAttribute('href');
-        // Remove 'pages/' prefix since we're already in the pages folder
-        link.setAttribute('href', href.replace('pages/', ''));
-    });
-    
-    // Fix links to index.html - they should go up one level
-    const indexLinks = container.querySelectorAll('a[href="index.html"]');
-    indexLinks.forEach(link => {
-        link.setAttribute('href', '../index.html');
+
+        if (!href) {
+            return;
+        }
+
+        if (href.startsWith('../pages/')) {
+            link.setAttribute('href', isInPages ? href.replace('../pages/', '') : href.replace('../pages/', 'pages/'));
+            return;
+        }
+
+        if (href.startsWith('pages/')) {
+            link.setAttribute('href', isInPages ? href.replace('pages/', '') : href);
+            return;
+        }
+
+        if (href === '../index.html' || href === 'index.html') {
+            link.setAttribute('href', isInPages ? '../index.html' : 'index.html');
+        }
     });
 }
 
